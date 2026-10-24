@@ -46,8 +46,18 @@ honesty, or that profit and honesty are successfully integrated.**
 - `mini_eval_results.csv` — output from an actual run, if included. The file
   is generated/overwritten when the script runs; it should not be interpreted
   as a statistically meaningful result.
+- `mini_eval_results_original.csv` — archived output from an earlier run, retained for comparison.
 - `requirements.txt` — Python dependency used by the prototype.
 - `.gitignore` — prevents common local environment files from entering Git.
+
+## Recorded runs
+
+Two preliminary runs were performed on October 21 and October 25, 2026.
+
+Both runs produced the same rule-compliance pattern:
+initial decision = 0, unchanged policy = 0, revised policy = 1.
+
+These observations are descriptive only and do not establish statistical reliability or generalizable improvement.
 
 ## Running locally
 
